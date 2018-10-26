@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+h1 {
+	font-family: Sacramento, cursive;
+	font-size: 60px;
+	color: #725C5D;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #DBD0B1;
+    width: 600px;
+    height: 40px;
+    background-color: #DBD0B1;
+    text-align: center;
+}
+
+li {
+	display: inline-block;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+div#staff{
+	margin-left: auto;
+	margin-right: 0;
+}
+/*p#test {
+	width: 300px;
+}
+
+
+div#content > div{
+	float:left;
+	vertical-align: top;
+	width: 600px;
+	border: 1px solid black;
+}*/

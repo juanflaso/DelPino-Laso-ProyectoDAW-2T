@@ -12,10 +12,10 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    border: 1px solid #DBD0B1;
-    width: 600px;
-    height: 40px;
-    background-color: #DBD0B1;
+    /*border: 1px solid #DBD0B1;*/
+    width: 100%;
+    height: 100%;
+    /*background-color: #DBD0B1;*/
     text-align: center;
 }
 
@@ -30,14 +30,9 @@ div#staff{
 	margin-left: auto;
 	margin-right: 0;
 }
-/*p#test {
-	width: 300px;
+
+#nav-bar {
+	width:1165px;
+	height:111px;
+	text-align: center;
 }
-
-
-div#content > div{
-	float:left;
-	vertical-align: top;
-	width: 600px;
-	border: 1px solid black;
-}*/

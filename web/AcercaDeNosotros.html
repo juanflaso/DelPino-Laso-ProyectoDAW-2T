@@ -1,68 +1,84 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type = "text/css" href="css/cols.css">
 	<link rel="stylesheet" type = "text/css" href="css/stylesheet.css">
+	<link rel="stylesheet" type = "text/css" href="css/cols.css">
 	<meta name = "viewport" content = "width = device - width, initial-scale = 1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<title>
 		"Alexas' Shop"
 	</title>
 </head>
 <body>
-	<header class = "col-12" id = "main-header">
-		<div class = "col-1,5" id = "logo">
-			<img src="fotos/logoFondoBlanco.png" witdh = 100px height = 100px>
-		</div>
-		<div class = "col-10,5" id="nav-bar">
-			<div >
-				<ul>
-					<li>TIENDA</li>
-					<li>NOSOTROS</li>
-					<li>NOTICIAS</li>
-					<li>CONTÁCTANOS</li>
-				</ul>
+	<div class = "container">
+		<header class = "row" id = "main-header">
+			<div class = "col-2" id = "logo">
+				<img src="fotos/logoFondoBlanco.png" witdh = 100px height = 100px>
 			</div>
-		</div>
-	</header>
-
-	<section class = "container col-12">
-		<div class = "col-7" id = "main-content">
-			<header class = "col-9">
-				<h1 class = "col-12">Acerca de Nosotros</h1>
-			</header>
-			<div class = "col-9" id = "info">
-				<a class = "col-12" href = "https://placeholder.com"><img src="https://via.placeholder.com/300x200"></a>
-
-				<p class = "col-12" id ="test">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sodales fermentum mauris, at maximus nunc molestie eget. Nulla facilisi. Morbi vestibulum a est nec tincidunt. Sed nec arcu lectus. Nulla gravida est non urna eleifend sagittis. Sed pharetra quam risus. Sed condimentum facilisis euismod. Vestibulum dui dui, posuere sed lacinia vel, condimentum quis velit. Cras at dolor fringilla, aliquam est vitae, vehicula nisl. Integer non elit ut purus tincidunt laoreet. Nam ut lacinia mi. Maecenas laoreet in metus luctus interdum.</p>
+			<div class = "col-10" id="nav">
+				<span class = "row" id = "nav-bar">
+					<ul>
+						<li>TIENDA</li>
+						<li>NOSOTROS</li>
+						<li>NOTICIAS</li>
+						<li>CONTÁCTANOS</li>
+					</ul>
+				</span>
 			</div>
-		</div>
+		</header>
 
-		<div class = "col-5" id = "staff">
-			<div class = "col-12">
-				<header class = "col-12">
-					<h1 class = "col-12">Staff</h1>
+		<div class = "row" id = "body-content">
+			<div class = "col-7" id = "main-content">
+				<header class = "row">
+					<h1 class = "col-12">Acerca de Nosotros</h1>
 				</header>
-
-				<article class = "col-12" id = "contacto-1">
-					<a class = "col-2" href = "https://placeholder.com"><img src="https://via.placeholder.com/80x80"></a>
-					<div class = "col-10" id = "info">
-						<h2>Nicolle Castro</h2>
-						<h3>Gerente General</h3>
-						<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sodales fermentum mauris, at maximus nunc molestie eget. Nulla facilisi. Morbi vestibulum a est nec tincidunt.</span>
-					</div>
-				</article>
-
-				<article class ="col-12" id = "contacto-2">
-					<a class = "col-2" href = "https://placeholder.com"><img src="https://via.placeholder.com/80x80"></a>
-					<div class = "col-10" id = "info">
-						<h2>Fulana Juana</h2>
-						<h3 >Gerente de Producto</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sodales fermentum mauris, at maximus nunc molestie eget. Nulla facilisi. Morbi vestibulum a est nec tincidunt.</p>
-					</div>
-				</article>
+				<a class = "row" href = "https://placeholder.com">
+						<img class = "col-12" src="https://via.placeholder.com/400x300">
+				</a>
+				<div class = "row" id = "info">
+					<p class = "col-12" id ="test">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sodales fermentum mauris, at maximus nunc molestie eget. Nulla facilisi. Morbi vestibulum a est nec tincidunt. Sed nec arcu lectus. Nulla gravida est non urna eleifend sagittis. Sed pharetra quam risus. Sed condimentum facilisis euismod. Vestibulum dui dui, posuere sed lacinia vel, condimentum quis velit. Cras at dolor fringilla, aliquam est vitae, vehicula nisl. Integer non elit ut purus tincidunt laoreet. Nam ut lacinia mi. Maecenas laoreet in metus luctus interdum.</p>
+				</div>
 			</div>
+
+			<div class = "col-5" id = "staff">
+				<div class = "row">
+					<header class = "col-12">
+						<h1 class = "row">Staff</h1>
+					</header>
+				</div>
+				<div class = "row" id = "contacto-1">
+					<div class = "col-3">
+						<a class = "row" href = "https://placeholder.com">
+							<img class = "col-12" src="https://via.placeholder.com/80x80">
+						</a>
+					</div>
+					<div class = "col-9" id = "info">
+						<h2 class = "row" >Nicolle Castro</h2>
+						<h3 class = "row" >Gerente General</h3>
+						<span class = "row" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sodales fermentum mauris, at maximus nunc molestie eget. Nulla facilisi.</span>
+					</div>
+				</div>
+
+				<div class ="row" id = "contacto-2">
+					<div class = "col-3">
+						<a class = "row" href = "https://placeholder.com">
+							<img class ="col-12" src="https://via.placeholder.com/80x80">
+						</a>
+					</div>
+					<div class = "col-9" id = "info">
+						<h2 class = "row">Fulana Juana</h2>
+						<h3 class = "row" >Gerente de Producto</h3>
+						<p class = "row">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sodales fermentum mauris, at maximus nunc molestie eget. Nulla facilisi.</p>
+					</div>
+				</div>
+			</div>
+
 		</div>
 
-	</section>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+	</div>
 </body>
 </html>

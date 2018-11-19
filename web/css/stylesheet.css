@@ -30,6 +30,7 @@ img {
     max-height: 100%;
 }
 
+
 div#staff{
 	margin-left: auto;
 	margin-right: 0;
@@ -39,12 +40,20 @@ div#staff{
 	vertical-align: right;
 }
 
+#menu ul{
+	padding-top: 5px;
+}
 #menu ul li{
 	display:block;
+	margin-bottom: 5px;
 }
 
+#menu ul li ul li{
+	margin-bottom: 0;
+}
 ul li[id^="tituloProducto"]{
 	font-size: 16px;
 	font-family: 'Open Sans', sans-serif;
-	color: #725C5D;
+	font-weight: bold;
+	color: #725C5D;	
 }

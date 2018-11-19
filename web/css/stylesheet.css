@@ -38,3 +38,13 @@ div#staff{
 #nav-bar {
 	vertical-align: right;
 }
+
+#menu ul li{
+	display:block;
+}
+
+ul li[id^="tituloProducto"]{
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	color: #725C5D;
+}

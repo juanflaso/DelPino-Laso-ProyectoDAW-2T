@@ -9,7 +9,7 @@ function loadShoesData() {
 
 function addNew( heading, precio, descripcion, image) {
 	var row = $("<div/>", {
-		"class": "row"
+		"class": "row item"
 	});
 
 	var section = $("<section/>", {
@@ -61,5 +61,30 @@ function addNew( heading, precio, descripcion, image) {
 
 $(document).ready(function(){
 	loadShoesData();
+
+	$("#buscador").keyup(function(){
+		var texto = $('input#buscador').val();
+		console.log(texto);
+
+		if(texto.length != 0) {
+      
+	      $('#items .item').filter(function(index){
+	        
+	        $(this).show();
+	        
+	        var zapato = $(this).text()
+	        if(zapato.indexOf(texto) == -1) {
+	          $(this).hide()
+	        }
+
+	      });
+
+	    } else {
+	      $('#items .item').each(function(){
+	        $(this).show();
+	      });
+	    }
+
+	});
 
 });

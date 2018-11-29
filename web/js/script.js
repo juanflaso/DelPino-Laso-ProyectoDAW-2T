@@ -71,7 +71,7 @@ $(document).ready(function(){
 	        $(this).show();
 	        
 	        var zapato = $(this).text()
-	        if(zapato.indexOf(texto) == -1) {
+	        if(zapato.toLowerCase().indexOf(texto.toLowerCase()) == -1) {
 	          $(this).hide()
 	        }
 

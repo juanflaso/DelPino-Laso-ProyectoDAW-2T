@@ -54,9 +54,12 @@ function addNew( heading, precio, descripcion, image) {
 	imag.appendTo(aside);
 	aside.appendTo(row);
 
+	aside.zoom();
+
 	row.appendTo("#items");
 }
 
 $(document).ready(function(){
 	loadShoesData();
+
 });

@@ -1,7 +1,6 @@
 function loadShoesData() {
 	$.getJSON("data/data.json", function(data) {
 		$.each(data, function(key, val){
-			console.log(val);
 			addNew(val.heading, val.precio, val.descripcion, val.image);
 		});
 	});
@@ -64,7 +63,6 @@ $(document).ready(function(){
 
 	$("#buscador").keyup(function(){
 		var texto = $('input#buscador').val();
-		console.log(texto);
 
 		if(texto.length != 0) {
       

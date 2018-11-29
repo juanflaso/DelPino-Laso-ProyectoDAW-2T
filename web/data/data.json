@@ -1,0 +1,14 @@
+[
+	{
+		"heading": "Tacos",
+		"precio": "$30.00",
+		"descripcion": "Lorem ipsum dolor sit amet consectetur adipiscing elit, suspendisse feugiat purus parturient nisl id dui, imperdiet praesent pharetra habitant tempus ante.",
+		"image": "img/tacos.jpg"
+	},
+	{
+		"heading": "Flatforms",
+		"precio": "$20.00",
+		"descripcion": "Lorem ipsum dolor sit amet consectetur adipiscing elit, suspendisse feugiat purus parturient nisl id dui, imperdiet praesent pharetra habitant tempus ante.",
+		"image": "img/flatforms.jpg"
+	}
+]

@@ -72,5 +72,18 @@ div[id^="contacto"]{
 	padding: 10px;
 	border: 2px solid #bcac80;
 	border-radius: 6px;
+	box-shadow: 1px 1px #bcac80 inset
 }
 
+#info{
+	text-align: justify;
+}
+
+#imgContainer{
+	text-align: center;
+	margin-bottom: 15px;
+	padding: 10px;
+	border: 2px solid #bcac80;
+	border-radius: 6px;
+	box-shadow: 1px 1px #bcac80 inset
+}

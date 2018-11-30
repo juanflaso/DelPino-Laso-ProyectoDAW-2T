@@ -1,0 +1,18 @@
+[
+	{
+		"cuartil": "Q1",
+		"ventas": "205"
+	},
+	{
+		"cuartil": "Q2",
+		"ventas": "180"
+	},
+	{
+		"cuartil": "Q3",
+		"ventas": "195"
+	},
+	{
+		"cuartil": "Q4",
+		"ventas": "250"
+	}
+]

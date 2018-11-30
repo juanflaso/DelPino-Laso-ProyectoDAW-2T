@@ -76,6 +76,11 @@ img{
 	margin:5px,auto,5px,auto;
 }
 
+#logoImg{
+	max-width: 100%;
+    max-height: 100%;
+    opacity: 0.8;	
+}
 
 div[id^="noticia"]{
 	padding: 12px;

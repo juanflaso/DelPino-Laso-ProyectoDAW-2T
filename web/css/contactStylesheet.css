@@ -64,7 +64,7 @@ li a{
 img {
     max-width: 100%;
     max-height: 100%;
-    opacity: 20%;
+    opacity: 0.8;
 }
 
 #body-content{
@@ -73,7 +73,7 @@ img {
 }
 
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
+input[type=text], select, textarea, input[type=date],input[type=file]{
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */  
     border: 1px solid #ccc; /* Gray border */

@@ -9,6 +9,12 @@ h1 {
 	color: #725C5D;
 }
 
+img {
+	max-width: 100%;
+    max-height: 100%;
+    opacity:0.8;
+}
+
 #staff{
 	padding-right: 0;
 }
@@ -60,3 +66,11 @@ li a{
 	padding-left: 100px;
 	padding-right: 10px;
 }
+
+div[id^="contacto"]{
+	margin: 15px;
+	padding: 10px;
+	border: 2px solid #bcac80;
+	border-radius: 6px;
+}
+
